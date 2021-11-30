@@ -18,3 +18,14 @@ GREEN = (0,255,0)
 BLUE = (0,0,255)
 PURPLE = (255,0,255)
 YELLOW = (249,215,28)
+
+# Setup the fonts.
+basicFont = pygame.font.SysFont(None,48)
+
+text = basicFont.render('Hello, world!',True,WHITE, BLUE )
+textRect = text.get_rect()
+textRect.centerx = WindowSurface.get_rect().centerx
+textRect.centery = WindowSurface.get_rect().centery
+
+
+WindowSurface.fill(YELLOW)
