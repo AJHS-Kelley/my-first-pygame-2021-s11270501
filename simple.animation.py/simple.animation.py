@@ -6,7 +6,16 @@ from pygame.locals import *
 
 pygame.init()
 
+
 WINDOWWIDTH = 400
 WINDOWHEIGHT = 400
 windowSurface = pygame.display.set_mode((WINDOWWIDTH,WINDOWHEIGHT),0,32)
 pygame.display.set_caption('Animation Example!')
+
+
+DOWNLEFT = 'downleft'
+DOWNRIGHT='downright'
+UPLEFT = 'upleft'
+UPRIGHT = 'upright'
+
+MOVESPEED = 4
