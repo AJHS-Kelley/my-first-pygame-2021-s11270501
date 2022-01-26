@@ -58,3 +58,11 @@ while True:
             b['rect'].left += MOVESPEED
             b['rect'].top -= MOVESPEED
 
+        if b['rect'].top < 0:
+
+            if b['dir'] == UPLEFT
+                b['dir'] = DOWNLEFT
+            if b['dir'] == UPRIGHT 
+                b['dir'] = DOWNRIGHT:
+            if b['rect'].bottom > WINDOWHEIGHT:   
+
