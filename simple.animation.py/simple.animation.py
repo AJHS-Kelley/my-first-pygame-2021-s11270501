@@ -64,21 +64,21 @@ while True:
                 b['dir'] = DOWNLEFT
             if b['dir'] == UPRIGHT: 
                 b['dir'] = DOWNRIGHT
-            if b['rect'].bottom > WINDOWHEIGHT:
-                if b['dir'] == DOWNLEFT:
+        if b['rect'].bottom > WINDOWHEIGHT:
+            if b['dir'] == DOWNLEFT:
                     b['dir'] = UPLEFT
-                if b['dir'] == DOWNRIGHT:
+            if b['dir'] == DOWNRIGHT:
                     b['dir'] = UPRIGHT
-            if  b['rect'].left < 0:
+        if  b['rect'].left < 0:
                 
-                if b['dir'] == DOWNLEFT:
+            if b['dir'] == DOWNLEFT:
                     b['dir'] = DOWNRIGHT
-                if b['dir'] == UPLEFT:
+            if b['dir'] == UPLEFT:
                     b['dir'] = UPRIGHT 
-            if b['rect'].right > WINDOWWIDTH:
-                if b['dir'] == DOWNRIGHT:
+        if b['rect'].right > WINDOWWIDTH:
+            if b['dir'] == DOWNRIGHT:
                     b['dir'] = DOWNLEFT
-                if b['dir'] == UPRIGHT:
+            if b['dir'] == UPRIGHT:
                     b['dir'] = UPLEFT 
  
 
