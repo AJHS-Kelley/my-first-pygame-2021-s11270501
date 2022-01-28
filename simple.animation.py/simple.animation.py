@@ -83,3 +83,6 @@ while True:
  
 
 
+        pygame.draw.rect(windowSurface,b['color'],b['rect'])
+    pygame.display.update()
+    time.sleep(0.02)
